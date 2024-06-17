@@ -17,7 +17,7 @@ app_include_css = "erpnext.bundle.css"
 web_include_js = "erpnext-web.bundle.js"
 web_include_css = [
     			"erpnext-web.bundle.css",
-                # "erpnext-web-fontawesome.bundle.css",
+                "/assets/erpnext/css/style.css",
 				   ]
 email_css = "email_erpnext.bundle.css"
 
