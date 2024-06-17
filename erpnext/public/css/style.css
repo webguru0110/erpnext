@@ -1,7 +1,8 @@
 /* ----Custom Section---- */
 
-/* Hero Section */
-html, body {
+/* Start Hero Section */
+html,
+body {
     font-family: DiLerFont;
     font-size: 1rem;
     line-height: 1.3;
@@ -27,25 +28,34 @@ html, body {
 }
 
 @media (min-width: 1400px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
         max-width: 1320px;
     }
 }
 
-#hero-home *, #hero-classicschools * {
-	color: #fff !important;
+#hero-home *,
+#hero-classicschools * {
+    color: #fff !important;
 }
 
-.g-0, .gy-0 {
+.g-0,
+.gy-0 {
     --bs-gutter-y: 0;
 }
 
-.g-0, .gx-0 {
+.g-0,
+.gx-0 {
     --bs-gutter-x: 0;
 }
 
 .row>* {
-	flex-shrink: 0;
+    flex-shrink: 0;
     max-width: 100%;
     padding-right: calc(var(--bs-gutter-x)* .5);
     padding-left: calc(var(--bs-gutter-x)* .5);
@@ -66,14 +76,14 @@ html, body {
     font-size: min(max(0.9rem, 1.8vw), 24px);
 }
 
-.hero-right .col > .d-flex {
+.hero-right .col>.d-flex {
     height: 100%;
     padding: 0 5% 9% 12%;
     transition: all .2s;
 }
 
 .hero-left {
-	background-image: url(/assets/erpnext/images/hero.jpg);
+    background-image: url(/assets/erpnext/images/hero.jpg);
     background-size: cover;
     line-height: 1.4;
 }
@@ -84,7 +94,7 @@ html, body {
     padding-top: 100%;
 }
 
-#hero-home .hero-right .row:first-child > .col:nth-child(2) a {
+#hero-home .hero-right .row:first-child>.col:nth-child(2) a {
     height: 50%;
 }
 
@@ -93,7 +103,7 @@ html, body {
     background: linear-gradient(275deg, #0082ca, #00a4ff);
 }
 
-.aspect > div {
+.aspect>div {
     position: absolute;
     top: 0;
     left: 0;
@@ -101,7 +111,7 @@ html, body {
     height: 100%;
 }
 
-.hero-left .aspect > div {
+.hero-left .aspect>div {
     padding: 74% 0 0 7%;
 }
 
@@ -117,11 +127,11 @@ html, body {
     background: linear-gradient(0deg, #6ca800, #a2c600);
 }
 
-#hero-home .hero-right .row:first-child > .col:nth-child(2) a:nth-child(1) {
+#hero-home .hero-right .row:first-child>.col:nth-child(2) a:nth-child(1) {
     padding-bottom: 5%;
 }
 
-.hero-right .col > a:hover {
+.hero-right .col>a:hover {
     box-shadow: inset 0 -200px 100px -100px rgba(0, 0, 0, .05), inset 0 200px 100px -100px rgba(255, 255, 255, .2);
 }
 
@@ -139,3 +149,87 @@ div {
     outline: none !important;
     unicode-bidi: isolate;
 }
+
+/* End Hero Section */
+
+/* Start Card Section */
+
+#all {
+    margin: 3vh auto 0;
+    max-width: 1140px;
+    padding: 0 0 20vh;
+    text-align: left;
+    font-size: 1rem;
+}
+
+@media (min-width: 420px) {
+    #main {
+        min-height: calc(100vh - 1000px);
+        padding: 2rem;
+    }
+}
+
+.custom.services {
+    --bs-gutter-x: 1.5rem;
+    margin: 2vh auto;
+    padding: calc(var(--bs-gutter-x)* 1.0);
+}
+
+.g-5,
+.gy-5 {
+    --bs-gutter-y: 3rem;
+}
+
+.g-5,
+.gx-5 {
+    --bs-gutter-x: 3rem;
+}
+
+.row-cols-1>* {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .row-cols-lg-3>* {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+}
+
+@media (min-width: 576px) {
+    .row-cols-sm-2>* {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.bg-body {
+    background-color: #fff !important;
+}
+
+.rounded {
+    border-radius: .25rem !important;
+}
+
+#services .card.shadow {
+    transition: box-shadow .3s;
+}
+
+/* End Card Section */
