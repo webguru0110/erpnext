@@ -18,7 +18,7 @@ web_include_js = [
     "erpnext-web.bundle.js",
     "/assets/erpnext/js/fontawesome-5.15.4-all.min.js",
     "/assets/erpnext/js/jquery-3.6.0.min.js",
-    "/assets/erpnext/js/zepto.min.js",
+    # "/assets/erpnext/js/zepto.min.js",
     "/assets/erpnext/plugins/owlcarousel/owl.carousel.min.js",
     "/assets/erpnext/js/custom.js",
 	]
