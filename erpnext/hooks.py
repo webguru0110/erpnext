@@ -14,11 +14,21 @@ develop_version = "14.x.x-develop"
 
 app_include_js = "erpnext.bundle.js"
 app_include_css = "erpnext.bundle.css"
-web_include_js = "erpnext-web.bundle.js"
+web_include_js = [
+    "erpnext-web.bundle.js",
+    "/assets/erpnext/js/fontawesome-5.15.4-all.min.js",
+    "/assets/erpnext/js/jquery-3.6.0.min.js",
+    "/assets/erpnext/js/zepto.min.js",
+    "/assets/erpnext/plugins/owlcarousel/owl.carousel.min.js",
+    "/assets/erpnext/js/custom.js",
+	]
 web_include_css = [
     			"erpnext-web.bundle.css",
                 "/assets/erpnext/css/style.css",
-				   ]
+                "/assets/erpnext/css/fontawesome-5.15.4-all.min.css",
+                "/assets/erpnext/plugins/owlcarousel/assets/owl.carousel.min.css",
+                "/assets/erpnext/plugins/owlcarousel/assets/owl.theme.default.min.css"
+   ]
 email_css = "email_erpnext.bundle.css"
 
 doctype_js = {
