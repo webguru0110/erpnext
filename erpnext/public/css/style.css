@@ -202,7 +202,7 @@ div {
 #all {
     margin: 3vh auto 0;
     max-width: 1140px;
-    padding: 0 0 20vh;
+    /* padding: 0 0 20vh; */
     text-align: left;
     font-size: 1rem;
 }
@@ -262,6 +262,13 @@ div {
 .row-cols-1>* {
     flex: 0 0 auto;
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .row-cols-md-2>* {
+        flex: 0 0 auto;
+        width: 50%;
+    }
 }
 
 @media (min-width: 576px) {

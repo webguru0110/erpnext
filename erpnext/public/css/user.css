@@ -1301,7 +1301,17 @@ div.bodyBg {
 
 html.primary-schools div.bodyBg {
     display: block;
-    background: url("../../../images/Logos/diler_heaven_1280.png") top center;
+    background: url("/assets/erpnext/images/Logos/diler_heaven_1280.png") top center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+div.bodyBg {
+    display: block;
+    background: url("/assets/erpnext/images/Logos/diler_heaven_1280.png") top center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -1683,21 +1693,21 @@ body div#top-nav-module ul.maximenuck li.maximenuck ul.maximenuck2 li>a.btn:hove
 }
 
 .hero-left {
-    background-image: url("../../../images/headers/hero.jpg");
+    background-image: url("/assets/erpnext/images/hero.jpg");
     background-size: cover;
     line-height: 1.4;
 }
 
 :lang(en-gb) .hero-left {
-    background-image: url("../../../images/headers/hero-en.jpg");
+    background-image: url("/assets/erpnext/images/headers/hero-en.jpg");
 }
 
 :lang(es-es) .hero-left {
-    background-image: url("../../../images/headers/hero-es.jpg");
+    background-image: url("/assets/erpnext/images/headers/hero-es.jpg");
 }
 
 :lang(fr-fr) .hero-left {
-    background-image: url("../../../images/headers/hero-fr.jpg");
+    background-image: url("/assets/erpnext/images/headers/hero-fr.jpg");
 }
 
 #hero-classicschools .hero-left {
@@ -1711,7 +1721,7 @@ body div#top-nav-module ul.maximenuck li.maximenuck ul.maximenuck2 li>a.btn:hove
 
 #hero-classicschools .hero-left {
     display: none;
-    background-image: url("../../../images/headers/diler-computer-raum_low_res.jpg");
+    background-image: url("/assets/erpnext/images/headers/diler-computer-raum_low_res.jpg");
 }
 
 h1.hero {
@@ -1817,7 +1827,7 @@ h1.hero * {
 #all {
     margin: 3vh auto 0;
     max-width: 1140px;
-    padding: 0 0 20vh;
+    /* padding: 0 0 20vh; */
     text-align: left;
     font-size: 1rem;
 }
@@ -2406,7 +2416,7 @@ h2.arena * {
 .hero.special-schools {
     padding: 2%;
     font-size: 1.2rem;
-    margin: 0 auto 6%;
+    /* margin: 0 auto 6%; */
 }
 
 .hero.hosting {
