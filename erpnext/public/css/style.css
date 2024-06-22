@@ -1151,4 +1151,13 @@ iframe {
     border-color: #008bd8;
 }
 
+nav.navbar.navbar-light {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1050;
+    background: #fff;
+    box-shadow: 0 0px 16px -4px rgba(0, 0, 0, .2);
+}
+
 /* End Table Section */

@@ -1316,6 +1316,7 @@ div.bodyBg {
     width: 100vw;
     height: 100vh;
     position: fixed;
+    margin-top: -5em;
     z-index: -1;
 }
 
