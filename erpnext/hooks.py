@@ -17,7 +17,6 @@ app_include_css = "erpnext.bundle.css"
 web_include_js = [
     "erpnext-web.bundle.js",
     "/assets/erpnext/js/fontawesome-5.15.4-all.min.js",
-    "/assets/erpnext/js/jquery-3.6.0.min.js",
     # "/assets/erpnext/js/zepto.min.js",
     "https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js",
     "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js",
