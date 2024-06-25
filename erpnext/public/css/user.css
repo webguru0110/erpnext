@@ -1676,7 +1676,7 @@ body div#top-nav-module ul.maximenuck li.maximenuck ul.maximenuck2 li>a.btn:hove
 }
 
 .hero * {
-    font-size: min(max(0.9rem, 1.8vw), 24px);
+    font-size: min(max(0.9rem, 1.8vw), 22px);
 }
 
 .hero.testimonials * {
