@@ -586,7 +586,7 @@ body .cb_template .fa-raw-before::before {
 
 .reviews-block__text::after {
     color: #ddd;
-    content: "\f10e";
+    /* content: "\f10e"; */
     font-family: FontAwesome;
     font-size: 32px;
     margin: auto;
