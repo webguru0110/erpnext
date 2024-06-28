@@ -2856,6 +2856,17 @@ form#ksearch-form {
     color: var(--bs-blue);
 }
 
+.form-range {
+    width: 100%;
+    height: 1.5rem;
+    padding: 0;
+    background-color: transparent;
+}
+
+.collapsing {
+    position: inherit !important;
+}
+
 @media (min-width: 820px) {
 
     body div#top-nav .maximenuckh ul.maximenuck li.maximenuck.level1>a,
