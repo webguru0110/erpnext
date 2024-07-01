@@ -2322,26 +2322,15 @@ div.mod-languages img {
     color: #fff;
 }
 
-.hero.primary-schools h1,
-.hero.primary-schools h1,
-.hero.primary-schools h1,
-.hero.primary-schools h1,
 .hero.primary-schools h1 {
     font-size: min(max(1.4rem, 2.6vw), 40px);
+    color: #fff;
 }
 
-.hero.primary-schools em,
-.hero.primary-schools em,
-.hero.primary-schools em,
-.hero.primary-schools em,
 .hero.primary-schools em {
     font-size: min(max(1.5rem, 2.8vw), 42px);
 }
 
-.hero.primary-schools *,
-.hero.primary-schools *,
-.hero.primary-schools *,
-.hero.primary-schools *,
 .hero.primary-schools * {
     font-size: min(max(1.1rem, 1.8vw), 32px);
 }
