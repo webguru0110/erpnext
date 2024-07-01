@@ -146,7 +146,10 @@ def validate_returned_items(doc):
 def validate_quantity(doc, args, ref, valid_items, already_returned_items):
 	fields = ["stock_qty"]
 	if doc.doctype in ["Purchase Receipt", "Purchase Invoice", "Subcontracting Receipt"]:
-		fields.extend(["received_qty", "rejected_qty"])
+		if not args.get("return_qty_from_rejected_warehouse"):
+			fields.extend(["received_qty", "rejected_qty"])
+		else:
+			fields.extend(["received_qty"])
 
 	already_returned_data = already_returned_items.get(args.item_code) or {}
 
@@ -158,9 +161,12 @@ def validate_quantity(doc, args, ref, valid_items, already_returned_items):
 	for column in fields:
 		returned_qty = flt(already_returned_data.get(column, 0)) if len(already_returned_data) > 0 else 0
 
-		if column == "stock_qty":
+		if column == "stock_qty" and not args.get("return_qty_from_rejected_warehouse"):
 			reference_qty = ref.get(column)
 			current_stock_qty = args.get(column)
+		elif args.get("return_qty_from_rejected_warehouse"):
+			reference_qty = ref.get("rejected_qty") * ref.get("conversion_factor", 1.0)
+			current_stock_qty = args.get(column) * args.get("conversion_factor", 1.0)
 		else:
 			reference_qty = ref.get(column) * ref.get("conversion_factor", 1.0)
 			current_stock_qty = args.get(column) * args.get("conversion_factor", 1.0)
@@ -882,6 +888,9 @@ def get_serial_batches_based_on_bundle(field, _bundle_ids):
 		key = row.voucher_detail_no
 		if frappe.get_cached_value(row.voucher_type, row.voucher_no, "is_return"):
 			key = frappe.get_cached_value(row.voucher_type + " Item", row.voucher_detail_no, field)
+
+		if row.voucher_type in ["Sales Invoice", "Delivery Note"]:
+			row.qty = -1 * row.qty
 
 		if key not in available_dict:
 			available_dict[key] = frappe._dict(
