@@ -1699,15 +1699,15 @@ body div#top-nav-module ul.maximenuck li.maximenuck ul.maximenuck2 li>a.btn:hove
     line-height: 1.4;
 }
 
-:lang(en-gb) .hero-left {
+:lang(en-GB) .hero-left {
     background-image: url("/assets/erpnext/images/headers/hero-en.jpg");
 }
 
-:lang(es-es) .hero-left {
+:lang(es) .hero-left {
     background-image: url("/assets/erpnext/images/headers/hero-es.jpg");
 }
 
-:lang(fr-fr) .hero-left {
+:lang(fr) .hero-left {
     background-image: url("/assets/erpnext/images/headers/hero-fr.jpg");
 }
 
