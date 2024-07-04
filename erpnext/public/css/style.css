@@ -278,6 +278,13 @@ div {
     }
 }
 
+@media (min-width: 768px) {
+    .row-cols-md-4>* {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
+
 @media (min-width: 992px) {
     .row-cols-lg-3>* {
         flex: 0 0 auto;
