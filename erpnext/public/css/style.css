@@ -948,7 +948,7 @@ iframe {
     width: 100%;
     padding: 0.75rem 1.25rem;
     font-size: 1rem;
-    color: #212529;
+    color: #00a4ff;
     text-align: left;
     background-color: #fff;
     border: 0;
@@ -982,6 +982,9 @@ iframe {
 
 .accordion-button:hover {
     z-index: 2;
+    background-color: #eee;
+    color: #1f496e;
+    text-decoration: none;
 }
 
 .accordion-button:focus {
