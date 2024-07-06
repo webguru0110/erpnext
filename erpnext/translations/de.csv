@@ -9445,7 +9445,7 @@ ZUMpad,ZUMpad
 EduPad is a collaborative text editor,EduPad ist ein kollaborativer Texteditor
 The kitsPad from kits,Das kitsPad von kits
 Oncoo - Group Work,Oncoo - Gruppenarbeit
-Pinnet – Privacy-conscious digital pinboard,Pinnet – Datensparsame, digitale Pinnwand
+Pinnet – Privacy-conscious digital pinboard,"Pinnet – Datensparsame, digitale Pinnwand"
 Mindwendel – Free and privacy-compliant brainstorming tool from kits,Mindwendel – kostenloses und datenschutzkonformes Brainstorming-Tool von kits
 Collaborative mind maps with real-time synchronization,Kollaborative Mindmaps mit Echtzeitsynchronisation
 A free and open source collaborative online whiteboard,Ein freies und quelloffenes kollaboratives Online-Whiteboard
@@ -9458,8 +9458,8 @@ Video conferencing with BigBlueButton:,Videokonferenz mit BigBlueButton:
 Senfcall - give your input,Senfcall - gib deinen Senf dazu
 Senfcall is a BBB instance from the Computerwerk Darmstadt e.V. with a focus on data protection.,Senfcall ist eine BBB-Instanz vom Computerwerk Darmstadt e.V. mit Fokus auf Datenschutz.
 Video conferencing with Jitsi Meet:,Videokonferenz mit Jitsi Meet:
-It is strongly advised against using a Jitsi Meet app from Apple's App Store or Google Play Store (except F-Droid), as these apps contain trackers!,Für eine mobile Nutzung über eine Jitsi Meet-App von Apples App Store bzw. Google Play Store wird dringlichst abgeraten (außer F-Droid), da diese Apps Tracker enthalten!
-Jitsi Meet works best over a Chromium-based browser (not Google Chrome!): Chromium, Brave or with the free web browser Firefox.,Am besten funktioniert Jitsi Meet über einen Chromium basierten Browser (nicht Google Chrome!): Chromium, Brave oder mit dem freien Webbrowser Firefox.
+"It is strongly advised against using a Jitsi Meet app from Apple's App Store or Google Play Store (except F-Droid), as these apps contain trackers!","Für eine mobile Nutzung über eine Jitsi Meet-App von Apples App Store bzw. Google Play Store wird dringlichst abgeraten (außer F-Droid), da diese Apps Tracker enthalten!"
+"Jitsi Meet works best over a Chromium-based browser (not Google Chrome!): Chromium, Brave or with the free web browser Firefox.","Am besten funktioniert Jitsi Meet über einen Chromium basierten Browser (nicht Google Chrome!): Chromium, Brave oder mit dem freien Webbrowser Firefox."
 Value should be placed on trustworthy server operators!,Es sollte hier Wert auf vertrauenswürdige Serverbetreiber gelegt werden!
 Jitsi Meet by jitsi.org,Jitsi Meet von jitsi.org
 Jitsi Meet from Karlsruhe,Jitsi Meet aus Karlsruhe
@@ -9969,6 +9969,38 @@ English,German
 "Months after investigations began, US lawmakers have made thousands of ads public, allegedly by Russian agents aiming to influence the US election and stir unrest. This sheds more light on the situation.","Monate nach Beginn der Ermittlungen haben US-Gesetzgeber Tausende von Anzeigen veröffentlicht, angeblich von russischen Agenten, die die US-Wahl beeinflussen und Unruhe stiften wollen. Dies wirft mehr Licht auf die Situation."
 "Special Counsel: Russian Intelligence Hacked US Democrats for Election Interference","Anklage des US-Sonderermittlers: Russische Agenten hackten US-Demokraten"
 "The special counsel investigating the US elections has revealed many more details about the cyber attack. This sets the stage for further actions.","Der Sonderermittler, der die US-Wahlen untersucht, hat viele weitere Details über den Cyberangriff bekannt gegeben. Dies bereitet den Boden für weitere Maßnahmen."
+"English","German"
+"DiLer Icon Set for Competence Lists/Grids","DiLer Icon Set für Kompetenzlisten/-raster"
+"The icons come in two series","Die Icons kommen in zwei Serien"
+"normal","normal"
+"and ","und "
+"inverted","invertiert"
+"The icons are available in a size of 640 px, suitable for use on your learning platform and also for printing (max. 10 cm).","Die Icons gibt es in einer Größe von 640 px, was gleichzeitig für die Nutzung in Ihrer Lernplattform und auch zum Ausdrucken (max. 10 cm) geeignet ist."
+"Clear shapes","Klare Formen"
+"Neutral colors","Neutrale Farben"
+"Normal and inverted","Normal und invertiert"
+"Expandable","Erweiterbar"
+"Small file sizes","Geringe Dateigrößen"
+"Use online in DiLer or other learning platforms","Verwendung online in DiLer oder anderen Lernplattformen"
+"Use for printing","Verwendung zum Ausdrucken"
+"Available under CC license","verfügbar unter CC Lizenz"
+"Free download","Kostenfreier Download"
+"Icon Download for Learning Grids","Icon Download für Lernraster"
+"Our icons are available for free download. However, you must still accept the license terms, as we do not want to allow commercial use.","Unsere Icons stehen zum kostenlosen Download bereit. Sie müssen aber trotzdem die Lizenzbedingungen akzeptieren, da wir eine kommerzielle Nutzung nicht erlauben möchten."
+"Registered users can download the icon set directly from the ","Registrierte Nutzer können das Icon Set direkt in den "
+"Downloads","Downloads"
+"page.","herunter laden."
+"Competence Icons","Kompetenzicons"
+"by","von"
+"are licensed under a","sind lizenziert unter einer"
+"Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License","Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+"Icon Selector","Icon Selector"
+"The following overview helps you quickly find the right icon for a competence or topic in your learning grid. The number in the title of the icons is their ID and corresponds to the file name of the icons.","Die folgende Übersicht dient Ihnen zur schnellen Orientierung bei der Auswahl des passenden Icons für eine Kompetenz oder ein Themenfeld in Ihrem Lernraster. Die Nummer im Titel der Icons ist deren ID und korrespondiert mit dem Dateinamen der Icons."
+"The quickest way to find an icon for a specific subject is to use the browser search by pressing Ctrl+F. You can then enter a term like 'Music' and see all the highlighted instances in the captions.","Am schnellsten finden Sie ein Icon für ein bestimmtes Fach über die Browsersuche durch drücken von Strg+F. Dort können Sie dann z.B. 'Musik' eingeben und bekommen alle Stellen in den Bildunterschriften hervorgehoben."
+"The download package contains all the icons. Our DiLer Partner Edition already includes all these icons in the 'images/diler/icons/normal' and 'images/diler/icons/inverted' folders.","Das Downloadpaket enthält alle Icons. Unsere DiLer Partner Edition enthält all diese Icons bereits in den Ordnern 'images/diler/icons/normal' und 'images/diler/icons/inverted'."
+"The following icons are also included in the","Die folgenden Icons sind ebenso in der Ausführung"
+"normal","normal"
+"series in the download package.","als Serie im Downloadpaket enthalten."
 Primary school,Grundschule
 Secondary Schools,Hauptschule
 Technical secondary school,Werkrealschule
