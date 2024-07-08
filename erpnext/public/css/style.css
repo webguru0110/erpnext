@@ -2908,6 +2908,2446 @@ only screen and (min-device-pixel-ratio: 1.5) {
     background-size: 45px 45px;
 }
 
+/* Phoca Gallery https://www.phoca.cz */
+
+
+#phocagallery-pane .pg-box1,
+#phocagallery .pg-box1,
+.pg-box1 {
+    /*overflow: hidden;*/
+    display: table;
+    vertical-align: middle;
+}
+
+#phocagallery-pane .pg-box2,
+#phocagallery .pg-box2,
+.pg-box2 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#phocagallery-pane .pg-box3,
+#phocagallery .pg-box3,
+.pg-box3 {
+    text-align: center;
+}
+
+
+
+.ph-tabs-iefix {
+    font-size: 1px;
+    height: 1px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#phocagallery {
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+#phocagallery a img {
+    padding: 0;
+    margin: 0;
+    border: 0px;
+}
+
+#phocagallery .phocagallery-cat-desc {
+    margin: 10px 0 10px 0;
+}
+
+#phocagallery .category {
+    margin: 5px;
+}
+
+#phocagallery.pg-detail-view {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#phocagallery .pg-detail-tags,
+#phocagallery .pg-cat-tags {
+    text-align: right;
+    font-size: x-small;
+}
+
+#phocagallery-pane .phocagallery-box-file,
+#phocagallery .phocagallery-box-file,
+.phocagallery-box-file {
+    position: relative;
+    float: left;
+    text-align: center;
+    /*overflow:visible;*/
+    /*
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  */
+}
+
+#phocagallery-pane .phocagallery-box-file-first,
+#phocagallery .phocagallery-box-file-first,
+.phocagallery-box-file-first {
+
+    /*overflow: hidden;*/
+    display: table;
+    vertical-align: middle;
+}
+
+#phocagallery-pane .phocagallery-box-file-second,
+#phocagallery .phocagallery-box-file-second,
+.phocagallery-box-file-second {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#phocagallery-pane .phocagallery-box-file-third,
+#phocagallery .phocagallery-box-file-third,
+.phocagallery-box-file-third {
+    text-align: center;
+}
+
+#phocagallery-pane a img,
+#phocagallery a img,
+#phocagallery-statistics a img,
+#phocagallery-pane a img:hover,
+#phocagallery a img:hover,
+#phocagallery-statistics a img:hover {
+    border: 0px;
+    margin: auto;
+}
+
+#phocagallery a:hover,
+#phocagallery a:active,
+#phocagallery a:focus,
+#phocagallery-statistics a:hover,
+#phocagallery-statistics a:active,
+#phocagallery-statistics a:focus {
+    /* background: none;*/
+
+    text-decoration: none;
+}
+
+#phocagallery .pg-name,
+#phocagallery-statistics .pg-name {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 2px;
+    color: #135cae;
+    text-align: center;
+}
+
+#phocagallery .detail,
+#phocagallery-statistics .detail {
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+#phocagallery .phocagallery-box-file:hover,
+#phocagallery .phocagallery-box-file.hover,
+#phocagallery-pane .phocagallery-box-file:hover,
+#phocagallery-pane .phocagallery-box-file.hover,
+.phocagallery-box-file:hover,
+.phocagallery-box-file.hover {
+    /*border:1px solid #135cae;
+  background:#f5f5f5;*/
+    text-decoration: none;
+    /*
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  */
+}
+
+/*hotnew*/
+#phocagallery div.pg-box1 img.pg-img-ovr1 {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+#phocagallery div.pg-box1 img.pg-img-ovr2 {
+    position: absolute;
+    top: 3px;
+    left: 35px;
+}
+
+#phocagallery .pg-cat-img-detail {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#phocagallery .pg-cat-img-detail-box {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.pg-cats-box-float {
+    position: relative;
+    float: left;
+}
+
+
+/*detail*/
+.phocagallery-box-file-d {
+    position: relative;
+    float: left;
+    border: 1px solid #E8E8E8;
+    background: #fcfcfc;
+    text-align: center;
+    overflow: visible;
+    width: 640px;
+    height: 480px;
+}
+
+.phocagallery-box-file-first-d {
+    background: #f5f5f5;
+    width: 640px;
+    height: 480px;
+    overflow: hidden;
+    display: table;
+    vertical-align: middle;
+}
+
+/*download message*/
+#download-msg {
+    font-family: sans-serif;
+    font-size: 83%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background-color: #ebecff;
+    border: 5px solid #cccccc;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    z-index: 1000;
+}
+
+/*download message text*/
+#download-msg div table {
+    padding: 10px;
+    filter: alpha(opacity=100);
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    position: relative;
+    z-index: 1000;
+    background-color: #ebecff;
+}
+
+#download-msg div table tr td,
+#download-msg div table tr td small,
+#download-msg a {
+    color: #000000;
+    font-weight: bold;
+}
+
+#phocagallery .main-switch-image {
+    margin: 0px;
+    padding: 7px 5px 7px 5px;
+    margin-bottom: 15px;
+}
+
+#phocagallery .main-switch-image-table {
+    /*border:1px solid #c2c2c2;*/
+}
+
+#loading-label-ytb,
+#loading-label,
+#loading-label-user {
+    text-align: center;
+    display: none;
+}
+
+#phocaGalleryImageBox,
+#image-box {
+    position: relative;
+}
+
+#description-msg {
+    font-size: 83%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #000;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    z-index: 1000;
+    width: 100%;
+}
+
+#description-text {
+    color: #fff;
+    padding: 10px;
+    /*  filter:alpha(opacity=100);
+  opacity: 0.8;
+  -moz-opacity:0.8; */
+    position: relative;
+    z-index: 1000;
+    background-color: #000;
+}
+
+
+
+#phocagallery-categories-detail {
+    clear: both;
+}
+
+/* Pane*/
+
+#phocagallery-votes,
+#phocagallery-comments,
+#phocagallery-upload,
+#phocagallery-ytbupload,
+#phocagallery-javaupload,
+#phocagallery-multipleupload,
+#phocagallery-category-creating,
+#phocagallery-subcategory-creating,
+#phocagallery-statistics,
+#phocagallery-user {
+    margin-top: 0px;
+    /*IE bug*/
+    margin-bottom: 15px;
+}
+
+#phocagallery-votes a img,
+#phocagallery-comments a img,
+#phocagallery-upload a img,
+#phocagallery-ytbupload a img,
+#phocagallery-javaupload a img,
+#phocagallery-multipleupload a img,
+#phocagallery-category-creating a img,
+#phocagallery-subcategory-creating a img,
+#phocagallery-user a img,
+#phocagallery-statistics a img {
+    border: 0px;
+}
+
+#phocagallery-categories-detail fieldset,
+#phocagallery-votes fieldset,
+#phocagallery-comments fieldset,
+#phocagallery-upload fieldset,
+#phocagallery-ytbupload fieldset,
+#phocagallery-javaupload fieldset,
+#phocagallery-multipleupload fieldset,
+#phocagallery-category-creating fieldset,
+#phocagallery-subcategory-creating fieldset,
+#phocagallery-user fieldset,
+#phocagallery-statistics fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+}
+
+#phocagallery-categories-detail legend,
+#phocagallery-votes legend,
+#phocagallery-comments legend,
+#phocagallery-upload legend,
+#phocagallery-ytbupload legend,
+#phocagallery-javaupload legend,
+#phocagallery-multipleupload legend,
+#phocagallery-category-creating legend,
+#phocagallery-subcategory-creating legend,
+#phocagallery-user legend,
+#phocagallery-statistics legend {
+    font-weight: bold;
+    color: #aa0000;
+    padding: 10px;
+}
+
+#phocagallery-votes small,
+#phocagallery-comments small,
+#phocagallery-upload small,
+#phocagallery-ytbupload small,
+#phocagallery-javaupload small,
+#phocagallery-multipleupload small,
+#phocagallery-statistics small,
+#phocagallery-category-creating small,
+#phocagallery-subcategory-creating small,
+#phocagallery-user small {
+    color: #ccc;
+}
+
+#phocagallery-votes form,
+#phocagallery-comments form,
+#phocagallery-upload form,
+#phocagallery-ytbupload form,
+#phocagallery-javaupload form,
+#phocagallery-multipleupload form,
+#phocagallery-category-creating form,
+#phocagallery-subcategory-creating form,
+#phocagallery-user form {
+    margin: 0;
+    padding: 0;
+}
+
+
+#phocagallery-comments .comment-input,
+#phocagallery-upload .comment-input,
+#phocagallery-ytbupload .comment-input,
+#phocagallery-javaupload .comment-input,
+#phocagallery-multipleupload .comment-input,
+#phocagallery-category-creating .comment-input,
+#phocagallery-subcategory-creating .comment-input,
+#phocagallery-user .comment-input {
+    width: 98%;
+}
+
+#phocagallery-comments .comment-input2,
+#phocagallery-upload .comment-input2,
+#phocagallery-ytbupload .comment-input2,
+#phocagallery-javaupload .comment-input2,
+#phocagallery-multipleupload .comment-inpu2t,
+#phocagallery-category-creating .comment-input2,
+#phocagallery-subcategory-creating .comment-input2,
+#phocagallery-user .comment-input {
+    width: 40px;
+    border: 0px;
+    font-weight: bold;
+}
+
+
+/* tabs */
+form {
+    margin: 0;
+    padding: 0;
+}
+
+
+dl.tabs {
+    float: left;
+    margin: 10px 0 -1px 2px;
+    z-index: 50;
+
+}
+
+dl.tabs dt {
+    float: left;
+    padding: 4px 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-left: 3px;
+    background: #f0f0f0;
+    color: #666;
+
+}
+
+dl.tabs dt.open {
+    background: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    z-index: 100;
+    color: #000;
+
+}
+
+dl.tabs a {
+    text-decoration: none;
+    font-weight: normal;
+}
+
+dl.tabs a:hover {
+    background: transparent !important;
+}
+
+div.current {
+    clear: both;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    background: #ffffff;
+
+}
+
+div.current dd {
+    padding: 0;
+    margin: 0;
+}
+
+#uploadForm {
+    margin: 0;
+    padding: 0;
+}
+
+#phocagallery-comments-form {
+    margin: 0;
+    padding: 0;
+}
+
+#phoca-exif {
+    padding: 10px;
+
+}
+
+#phoca-exif h2.phocaexif {
+    font-size: 130%;
+    background: url(../../images/icon-info.png) left center no-repeat;
+    padding-left: 20px;
+}
+
+#phoca-exif table {
+    border-collapse: collapse;
+
+}
+
+#phoca-exif table tr.first {
+    background: #fdfdfd;
+    border-bottom: 1px dotted #ccc;
+    border-collapse: collapse;
+
+}
+
+#phoca-exif table tr.second {
+    background: #fff;
+    border-bottom: 1px dotted #ccc;
+    border-collapse: collapse;
+
+}
+
+#phoca-exif table tr td {
+    padding: 5px;
+    border-collapse: collapse;
+
+}
+
+
+/* IE Shadowbox */
+#shadowbox_title,
+#shadowbox_info {
+    border: 0px;
+}
+
+#phocagallery-img-votes {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/** Table styles **/
+
+#phocagallery-subcategory-creating table.adminlist,
+#phocagallery-upload table.adminlist {
+    width: 100%;
+    border-spacing: 1px;
+    background-color: #e7e7e7;
+    color: #666;
+}
+
+#phocagallery-subcategory-creating table.adminlist td,
+#phocagallery-subcategory-creating table.adminlist th,
+#phocagallery-upload table.adminlist td,
+#phocagallery-upload table.adminlist th {
+    padding: 4px;
+}
+
+#phocagallery-subcategory-creating table.adminlist thead th,
+#phocagallery-upload table.adminlist thead th {
+    text-align: center;
+    background: #f0f0f0;
+    color: #666;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #fff;
+}
+
+#phocagallery-subcategory-creating table.adminlist thead a:hover,
+#phocagallery-upload table.adminlist thead a:hover {
+    text-decoration: none;
+}
+
+#phocagallery-subcategory-creating table.adminlist thead th img,
+#phocagallery-upload table.adminlist thead th img {
+    vertical-align: middle;
+}
+
+#phocagallery-subcategory-creating table.adminlist tbody th,
+#phocagallery-upload table.adminlist tbody th {
+    font-weight: bold;
+}
+
+#phocagallery-subcategory-creating table.adminlist tbody tr,
+#phocagallery-upload table.adminlist tbody tr {
+    background-color: #fff;
+    text-align: left;
+}
+
+#phocagallery-subcategory-creating table.adminlist tbody tr.row1,
+#phocagallery-upload table.adminlist tbody tr.row1 {
+    background: #f9f9f9;
+    border-top: 1px solid #fff;
+}
+
+#phocagallery-subcategory-creating table.adminlist tbody tr.row0:hover td,
+#phocagallery-subcategory-creating table.adminlist tbody tr.row1:hover td,
+#phocagallery-upload table.adminlist tbody tr.row0:hover td,
+#phocagallery-upload table.adminlist tbody tr.row1:hover td {
+    background-color: #ffd;
+}
+
+#phocagallery-subcategory-creating table.adminlist tbody tr td,
+#phocagallery-upload table.adminlist tbody tr td {
+    height: 25px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+#phocagallery-subcategory-creating table.adminlist tbody tr.row1 td,
+#phocagallery-upload table.adminlist tbody tr.row1 td {
+    background: #f9f9f9;
+    border-top: 1px solid #FFF;
+}
+
+#phocagallery-subcategory-creating table.adminlist tfoot tr,
+#phocagallery-upload table.adminlist tfoot tr {
+    text-align: center;
+    color: #333;
+}
+
+#phocagallery-subcategory-creating table.adminlist tfoot td,
+#phocagallery-subcategory-creating table.adminlist tfoot th,
+#phocagallery-upload table.adminlist tfoot td,
+#phocagallery-upload table.adminlist tfoot th {
+    background-color: #f3f3f3;
+    border-top: 1px solid #999;
+    text-align: center;
+}
+
+#phocagallery-subcategory-creating table.adminlist td.order,
+#phocagallery-upload table.adminlist td.order {
+    text-align: center;
+    white-space: nowrap;
+}
+
+#phocagallery-subcategory-creating table.adminlist td.order span,
+#phocagallery-upload table.adminlist td.order span {
+    float: left;
+    display: block;
+    width: 20px;
+    text-align: center;
+}
+
+
+#phocagallery .pg-center,
+#phocagallery-upload .pg-center,
+#phocagallery-subcategory-creating .pg-center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#phocagallery .pg-inline,
+#phocagallery-upload .pg-inline,
+#phocagallery-subcategory-creating .pg-inline {
+    margin: 0 10px 0 10px;
+    display: inline;
+}
+
+.bgPhocaClass {
+    padding: 10px;
+    /*border:1px solid #d2d2d2;*/
+}
+
+/* 1.6*/
+
+#phocagallery table,
+#phocagallery tr,
+#phocagallery td {
+    border-style: none;
+    border: 0px;
+}
+
+#phocagallery table tr td div.pg-imgbg a,
+#phocagallery table tr td div.pg-imgbg a img,
+#phocagallery table tr td div.pg-imgbg {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+#phocagallery table tr td div.pg-imgbgd a,
+#phocagallery table tr td div.pg-imgbgd a img,
+#phocagallery table tr td div.pg-imgbgd {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/*
+ * If Beez template is not used, the following code
+ * can be removed
+ * Because of using !important methods in Beez
+ */
+
+#phocagallery-comments table,
+#phocagallery-comments table tr td,
+#phocagallery-comments table tr,
+#phocagallery table,
+#phocagallery-pane table,
+#phocagallery-pane table tr,
+#phocagallery-pane table tr td {
+    border-style: none !important;
+
+}
+
+#phocagallery-pane table tr td {
+    padding: 3px;
+}
+
+#phocagallery-multipleupload form fieldset {
+    text-align: left;
+    padding: 5px;
+}
+
+#phocagallery-pane .actions {
+    text-align: left;
+    width: auto;
+    padding: 10px 5px !important;
+    margin: 10px 0 !important;
+}
+
+#phocagallery-pane ul#flash_uploader_filelist {
+    margin: 0px;
+}
+
+
+#phocagallery div.phocagallery-box-file-third a:hover,
+#phocagallery div.phocagallery-box-file-third a:active,
+#phocagallery div.phocagallery-box-file-third a:focus,
+#phocagallery table tr td div#phocaGalleryImageBox a:hover,
+#phocagallery table tr td div#phocaGalleryImageBox a:active,
+#phocagallery table tr td div#phocaGalleryImageBox a:focus,
+#phocagallery table tr td div.pg-imgbg a:hover,
+#phocagallery table tr td div.pg-imgbg a:active,
+#phocagallery table tr td div.pg-imgbg a:focus,
+#phocagallery table tr td a:hover img,
+#phocagallery table tr td a:active img,
+#phocagallery table tr td a:focus img
+
+/*,
+#phocagallery a:hover img,
+#phocagallery a:active img,
+#phocagallery a:focus img,
+#main #phocagallery a:hover img,
+#main #phocagallery a:active img,
+#main #phocagallery a:focus img*/
+    {
+    background-color: transparent;
+    background: none;
+}
+
+/* Plugin */
+
+#main div.phocagallery div.phocagallery-box-file-first a,
+#main div.phocagallery div.phocagallery-box-file-second a,
+#main div.phocagallery div.phocagallery-box-file-third a,
+#main div.phocagallery a img,
+#main div.phocagallery div.detail a img,
+#main div.phocagallery div.detail a,
+#main div.phocagallery div.detail a:hover img,
+#main div.phocagallery div.detail a:active img,
+#main div.phocagallery div.detail a:focus img,
+#main div.phocagallery a:hover img,
+#main div.phocagallery a:active img,
+#main div.phocagallery a:focus img {
+    background-color: transparent;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#main div.phocagallery a img,
+#main div.phocagallery a:hover img,
+#main div.phocagallery a:active img,
+#main div.phocagallery a:focus img {
+    vertical-align: middle;
+}
+
+
+
+.bgPhocaClass {
+    padding: 10px;
+    /*border:1px solid #d2d2d2;*/
+}
+
+.bgPhocaClass {
+    border-collapse: separate;
+}
+
+.bgPhocaClass tr,
+.bgPhocaClass tr td {
+    border: none;
+}
+
+/*
+ * End of specific code for Beez template
+ */
+
+
+.pgerrormsg {
+    background: #FFC2C2;
+    border: 1px solid #bf3030;
+    color: #a60000;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pgsuccessmsg {
+    background: #ceffc1;
+    border: 1px solid #4ebd30;
+    color: #23a600;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pgunsetmsg {
+    background: #fff2c1;
+    border: 1px solid #bda130;
+    color: #a68400;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#phocagallery table #image-box {
+    margin: 0 auto;
+}
+
+
+
+
+/*icons - buttons*/
+#phocagallery #pg-icons {
+    float: right;
+    margin-right: 5px;
+}
+
+/* Multibox */
+#phocagallery.pg-detail-view-multibox {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow: hidden;
+    text-align: left;
+}
+
+#phocagallery.pg-detail-view-multibox table.pg-multibox-table {
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-align: left;
+}
+
+#phocagallery.pg-detail-view-multibox table tr td.pg-multibox-lefttd {
+    padding: 0px;
+    margin: 0px;
+}
+
+#phocagallery.pg-detail-view-multibox table tr td.pg-multibox-righttd {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+#phocagallery.pg-detail-view-multibox table .pg-multibox-left {
+    margin: 0px 5px;
+    font-size: small;
+    position: relative;
+}
+
+#phocagallery.pg-detail-view-multibox table .pg-multibox-right {
+    padding: 5px 5px;
+    margin: 0px;
+
+    overflow: -moz-scrollbars-vertical;
+    -ms-overflow-y: scroll;
+    overflow-y: scroll;
+}
+
+#phocagallery.pg-detail-view-multibox .pg-multibox-desc,
+#phocagallery.pg-detail-view-multibox .pg-multibox-user,
+#phocagallery.pg-detail-view-multibox table tr td {
+    font-size: small;
+}
+
+#phocagallery.pg-detail-view-multibox .pg-rating-msg {
+    font-size: xx-small;
+}
+
+#phocagallery.pg-detail-view-multibox .pg-multibox-tags-box,
+#phocagallery.pg-detail-view-multibox .pg-multibox-desc {
+    padding: 5px 0px;
+}
+
+#phocagallery.pg-detail-view-multibox .pg-multibox-tags,
+#phocagallery.pg-detail-view-multibox .pg-multibox-user {
+    font-weight: bold;
+}
+
+#phocagallery.pg-detail-view-multibox .pg-multibox-username,
+#phocagallery.pg-detail-view-multibox .pg-multibox-avatar {
+    float: left;
+}
+
+#phocagallery.pg-detail-view-multibox .pg-multibox-thumbs-box,
+#phocagallery.pg-detail-view-multibox .pg-multibox-comments {
+    padding: 5px 0px;
+}
+
+#phocagallery.pg-detail-view-multibox .pg-multibox-thumbs-box .pg-multibox-thumbs-item {
+    margin: 3px;
+    padding: 2px;
+    float: left;
+    border: 1px solid #dfdfdf;
+}
+
+#phocagallery.pg-detail-view-multibox .pg-multibox-comments-iframe {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    /*overflow: -moz-scrollbars-vertical;
+    -ms-overflow-y: scroll;
+    overflow-y: scroll;*/
+    overflow: auto;
+}
+
+
+#phocagallery .pg-multibox-title {
+    font-weight: bold;
+}
+
+#phocagallerymultiboxnext {
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    display: none;
+}
+
+
+
+#phocagallerymultiboxprev {
+    position: absolute;
+    left: 20px;
+    top: 45%;
+    display: none;
+}
+
+
+/* To not be in coflict with beez */
+
+#phocagallery.pg-detail-view-multibox table .pg-multibox-left a,
+#phocagallery.pg-detail-view-multibox table .pg-multibox-left a img,
+#phocagallery.pg-detail-view-multibox table .pg-multibox-left a:hover img,
+#phocagallery.pg-detail-view-multibox table .pg-multibox-left a:active img,
+#phocagallery.pg-detail-view-multibox table .pg-multibox-left a:focus img,
+
+#phocagallerymultiboxprev a,
+#phocagallerymultiboxprev a img,
+#phocagallerymultiboxprev a:hover img,
+#phocagallerymultiboxprev a:active img,
+#phocagallerymultiboxprev a:focus img,
+
+#phocagallerymultiboxnext a,
+#phocagallerymultiboxnext a img,
+#phocagallerymultiboxnext a:hover img,
+#phocagallerymultiboxnext a:active img,
+#phocagallerymultiboxnext a:focus img {
+    background-color: transparent !important;
+    background: none !important;
+    border: none !important;
+    text-decoration: none !important;
+}
+
+/* JAK no borders*/
+div.window-container table,
+div.window-container table tr,
+div.window-container table tr td {
+    border: 0px;
+}
+
+#phocagallery .pg-multi-img {
+    position: relative;
+    float: left;
+    max-width: 100%;
+}
+
+#phocagallery .pg-multi-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-box-shadow: inset 0px 0px 0px 1px #fff;
+    box-shadow: inset 0px 0px 0px 1px #fff;
+}
+
+#phocagallery .pg-multi-img img {
+    float: left;
+}
+
+#pg-msnr-container {
+    padding: 0;
+    margin: 0;
+}
+
+#phocaMap img {
+    max-width: none;
+}
+
+
+.ph-cb {
+    clear: both
+}
+
+.highslide img {
+    border: 0px;
+}
+
+/* Bootstrap 3 conflict */
+#phocagallery *,
+#phocagallery *:before,
+#phocagallery *:after {
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    ;
+}
+
+/* Plugin conflict */
+.highslide-controls {
+    display: none;
+}
+
+.highslide-container .highslide-wrapper div.highslide-controls {
+    display: block;
+    margin-left: -50%;
+}
+
+.img-responsive2 {
+    /*width:100%;*/
+}
+
+.ph-mc {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ph-w100 {
+    width: 100%;
+}
+
+.ph-icon-up-images {
+    font-size: 2em;
+}
+
+.ph-icon-button {
+    padding: 5px 10px;
+    border: 1px solid #f0f0f0;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.ph-icon-disabled {
+    color: #c0c0c0;
+}
+
+.ph-mc .glyphicon {
+    font-size: 200%;
+}
+
+.icon-arrow-up-3:before {
+    /*content: "\e00f";*/
+    content: "\e113";
+}
+
+.icon-arrow-down-3:before {
+    /*content: "\e011";*/
+    content: "\e114";
+}
+
+
+
+
+
+@media screen and (min-width: 300px) {
+    .pg-grid-sizer {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .pg-grid-sizer {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pg-grid-sizer {
+        width: 33.333%;
+    }
+}
+
+.pg-box3 figure {
+    display: inline;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin: 0 auto;
+    padding: 0;
+    display: relative;
+}
+
+.pg-box3 figure {
+    position: relative;
+}
+
+img.youtube {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+    background: url(../../images/ytb_play.png);
+}
+
+img.youtube:hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    background: url(../../images/ytb_play_active.png);
+}
+
+/* Photoswipe YouTube */
+.pswp__zoom-wrap {
+    text-align: center;
+}
+
+.pswp__zoom-wrap:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.ph-pswp-wrapper {
+    line-height: 0;
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: left;
+    z-index: 1045;
+}
+
+.ph-pswp-video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    width: 100%;
+}
+
+.ph-pswp-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#phocagallery video {
+    width: 100% !important;
+    height: auto !important;
+}
+
+#phocagallery .pg-mapbox-description {
+    padding: 0 5px;
+}
+
+#phocagallery .pg-mapbox-description p {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+#phocagallery .pg-box3 figure {
+  margin: 0 auto;
+}*/
+
+/* Loading */
+.ph-lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.ph-lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #129ED9;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.ph-lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: ph-lds-ellipsis1 0.6s infinite;
+}
+
+.ph-lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: ph-lds-ellipsis2 0.6s infinite;
+}
+
+.ph-lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: ph-lds-ellipsis2 0.6s infinite;
+}
+
+.ph-lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: ph-lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes ph-lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes ph-lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes ph-lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(24px, 0);
+    }
+}
+
+
+/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/*
+	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
+*/
+/* pswp = photoswipe */
+.pswp {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    -ms-touch-action: none;
+    touch-action: none;
+    z-index: 1500;
+    -webkit-text-size-adjust: 100%;
+    /* create separate layer, to avoid paint on window.onscroll in webkit/blink */
+    -webkit-backface-visibility: hidden;
+    outline: none;
+}
+
+.pswp * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.pswp img {
+    max-width: none;
+}
+
+/* style is added when JS option showHideOpacity is set to true */
+.pswp--animate_opacity {
+    /* 0.001, because opacity:0 doesn't trigger Paint action, which causes lag at start of transition */
+    opacity: 0.001;
+    will-change: opacity;
+    /* for open/close transition */
+    -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+    transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+}
+
+.pswp--open {
+    display: block;
+}
+
+.pswp--zoom-allowed .pswp__img {
+    /* autoprefixer: off */
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+}
+
+.pswp--zoomed-in .pswp__img {
+    /* autoprefixer: off */
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+}
+
+.pswp--dragging .pswp__img {
+    /* autoprefixer: off */
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+    cursor: grabbing;
+}
+
+/*
+	Background is added as a separate element.
+	As animating opacity is much faster than animating rgba() background-color.
+*/
+.pswp__bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    will-change: opacity;
+}
+
+.pswp__scroll-wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.pswp__container,
+.pswp__zoom-wrap {
+    -ms-touch-action: none;
+    touch-action: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* Prevent selection and tap highlights */
+.pswp__container,
+.pswp__img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+.pswp__zoom-wrap {
+    position: absolute;
+    width: 100%;
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    /* for open/close transition */
+    -webkit-transition: -webkit-transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
+    transition: transform 333ms cubic-bezier(0.4, 0, 0.22, 1);
+}
+
+.pswp__bg {
+    will-change: opacity;
+    /* for open/close transition */
+    -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+    transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+}
+
+.pswp--animated-in .pswp__bg,
+.pswp--animated-in .pswp__zoom-wrap {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.pswp__container,
+.pswp__zoom-wrap {
+    -webkit-backface-visibility: hidden;
+}
+
+.pswp__item {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.pswp__img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+/*
+	stretched thumbnail or div placeholder element (see below)
+	style is added to avoid flickering in webkit/blink when layers overlap
+*/
+.pswp__img--placeholder {
+    -webkit-backface-visibility: hidden;
+}
+
+/*
+	div element that matches size of large image
+	large image loads on top of it
+*/
+.pswp__img--placeholder--blank {
+    background: #222;
+}
+
+.pswp--ie .pswp__img {
+    width: 100% !important;
+    height: auto !important;
+    left: 0;
+    top: 0;
+}
+
+/*
+	Error message appears when image is not loaded
+	(JS option errorMsg controls markup)
+*/
+.pswp__error-msg {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: -8px;
+    color: #CCC;
+}
+
+.pswp__error-msg a {
+    color: #CCC;
+    text-decoration: underline;
+}
+
+/*! PhotoSwipe Default UI CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/*
+
+	Contents:
+
+	1. Buttons
+	2. Share modal and links
+	3. Index indicator ("1 of X" counter)
+	4. Caption
+	5. Loading indicator
+	6. Additional styles (root element, top bar, idle state, hidden state, etc.)
+
+*/
+/*
+	
+	1. Buttons
+
+ */
+/* <button> css reset */
+.pswp__button {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    background: none;
+    cursor: pointer;
+    overflow: visible;
+    -webkit-appearance: none;
+    display: block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    float: right;
+    opacity: 0.75;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.pswp__button:focus,
+.pswp__button:hover {
+    opacity: 1;
+}
+
+.pswp__button:active {
+    outline: none;
+    opacity: 0.9;
+}
+
+.pswp__button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+/* pswp__ui--over-close class it added when mouse is over element that should close gallery */
+.pswp__ui--over-close .pswp__button--close {
+    opacity: 1;
+}
+
+.pswp__button,
+.pswp__button--arrow--left:before,
+.pswp__button--arrow--right:before {
+    background-image: url(default-skin.png) 0 0 no-repeat;
+    background-size: 264px 88px;
+    width: 44px;
+    height: 44px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.1),
+(-webkit-min-device-pixel-ratio: 1.09375),
+(min-resolution: 105dpi),
+(min-resolution: 1.1dppx) {
+
+    /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
+    .pswp--svg .pswp__button,
+    .pswp--svg .pswp__button--arrow--left:before,
+    .pswp--svg .pswp__button--arrow--right:before {
+        background-image: url(default-skin.png);
+    }
+
+
+    .pswp--svg .pswp__button--arrow--left,
+    .pswp--svg .pswp__button--arrow--right {
+        background: none;
+    }
+}
+
+.pswp__button--close {
+    background-position: 0 -44px;
+}
+
+.pswp__button--share {
+    background-position: -44px -44px;
+}
+
+.pswp__button--fs {
+    display: none;
+}
+
+.pswp--supports-fs .pswp__button--fs {
+    display: block;
+}
+
+.pswp--fs .pswp__button--fs {
+    background-position: -44px 0;
+}
+
+.pswp__button--zoom {
+    display: none;
+    background-position: -88px 0;
+}
+
+.pswp--zoom-allowed .pswp__button--zoom {
+    display: block;
+}
+
+.pswp--zoomed-in .pswp__button--zoom {
+    background-position: -132px 0;
+}
+
+/* no arrows on touch screens */
+.pswp--touch .pswp__button--arrow--left,
+.pswp--touch .pswp__button--arrow--right {
+    visibility: hidden;
+}
+
+/*
+	Arrow buttons hit area
+	(icon is added to :before pseudo-element)
+*/
+.pswp__button--arrow--left,
+.pswp__button--arrow--right {
+    background: none;
+    top: 50%;
+    margin-top: -50px;
+    width: 70px;
+    height: 100px;
+    position: absolute;
+}
+
+.pswp__button--arrow--left {
+    left: 0;
+}
+
+.pswp__button--arrow--right {
+    right: 0;
+}
+
+.pswp__button--arrow--left:before,
+.pswp__button--arrow--right:before {
+    content: '';
+    top: 35px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 30px;
+    width: 32px;
+    position: absolute;
+}
+
+.pswp__button--arrow--left:before {
+    left: 6px;
+    background-position: -138px -44px;
+}
+
+.pswp__button--arrow--right:before {
+    right: 6px;
+    background-position: -94px -44px;
+}
+
+/*
+
+	2. Share modal/popup and links
+
+ */
+.pswp__counter,
+.pswp__share-modal {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.pswp__share-modal {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    z-index: 1600;
+    opacity: 0;
+    -webkit-transition: opacity 0.25s ease-out;
+    transition: opacity 0.25s ease-out;
+    -webkit-backface-visibility: hidden;
+    will-change: opacity;
+}
+
+.pswp__share-modal--hidden {
+    display: none;
+}
+
+.pswp__share-tooltip {
+    z-index: 1620;
+    position: absolute;
+    background: #FFF;
+    top: 56px;
+    border-radius: 2px;
+    display: block;
+    width: auto;
+    right: 44px;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+    -webkit-transition: -webkit-transform 0.25s;
+    transition: transform 0.25s;
+    -webkit-backface-visibility: hidden;
+    will-change: transform;
+}
+
+.pswp__share-tooltip a {
+    display: block;
+    padding: 8px 12px;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.pswp__share-tooltip a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.pswp__share-tooltip a:first-child {
+    /* round corners on the first/last list item */
+    border-radius: 2px 2px 0 0;
+}
+
+.pswp__share-tooltip a:last-child {
+    border-radius: 0 0 2px 2px;
+}
+
+.pswp__share-modal--fade-in {
+    opacity: 1;
+}
+
+.pswp__share-modal--fade-in .pswp__share-tooltip {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+
+/* increase size of share links on touch devices */
+.pswp--touch .pswp__share-tooltip a {
+    padding: 16px 12px;
+}
+
+a.pswp__share--facebook:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -12px;
+    right: 15px;
+    border: 6px solid transparent;
+    border-bottom-color: #FFF;
+    -webkit-pointer-events: none;
+    -moz-pointer-events: none;
+    pointer-events: none;
+}
+
+a.pswp__share--facebook:hover {
+    background: #3E5C9A !important;
+    color: #FFF;
+}
+
+a.pswp__share--facebook:hover:before {
+    border-bottom-color: #3E5C9A;
+}
+
+a.pswp__share--twitter:hover {
+    background: #55ACEE !important;
+    color: #FFF;
+}
+
+a.pswp__share--pinterest:hover {
+    background: #CCC !important;
+    color: #CE272D;
+}
+
+a.pswp__share--download:hover {
+    background: #DDD !important;
+}
+
+/*
+
+	3. Index indicator ("1 of X" counter)
+
+ */
+.pswp__counter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 44px;
+    font-size: 13px;
+    line-height: 44px;
+    color: #FFF;
+    opacity: 0.75;
+    padding: 0 10px;
+}
+
+/*
+	
+	4. Caption
+
+ */
+.pswp__caption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 44px;
+}
+
+.pswp__caption small {
+    font-size: 11px;
+    color: #BBB;
+}
+
+.pswp__caption__center {
+    text-align: left;
+    max-width: 420px;
+    margin: 0 auto;
+    font-size: 13px;
+    padding: 10px;
+    line-height: 20px;
+    color: #CCC;
+}
+
+.pswp__caption--empty {
+    display: none;
+}
+
+/* Fake caption element, used to calculate height of next/prev image */
+.pswp__caption--fake {
+    visibility: hidden;
+}
+
+/*
+
+	5. Loading indicator (preloader)
+
+	You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
+
+ */
+.pswp__preloader {
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -22px;
+    opacity: 0;
+    -webkit-transition: opacity 0.25s ease-out;
+    transition: opacity 0.25s ease-out;
+    will-change: opacity;
+    direction: ltr;
+}
+
+.pswp__preloader__icn {
+    width: 20px;
+    height: 20px;
+    margin: 12px;
+}
+
+.pswp__preloader--active {
+    opacity: 1;
+}
+
+.pswp__preloader--active .pswp__preloader__icn {
+    /* We use .gif in browsers that don't support CSS animation */
+    background: url(preloader.gif) 0 0 no-repeat;
+}
+
+.pswp--css_animation .pswp__preloader--active {
+    opacity: 1;
+}
+
+.pswp--css_animation .pswp__preloader--active .pswp__preloader__icn {
+    -webkit-animation: clockwise 500ms linear infinite;
+    animation: clockwise 500ms linear infinite;
+}
+
+.pswp--css_animation .pswp__preloader--active .pswp__preloader__donut {
+    -webkit-animation: donut-rotate 1000ms cubic-bezier(0.4, 0, 0.22, 1) infinite;
+    animation: donut-rotate 1000ms cubic-bezier(0.4, 0, 0.22, 1) infinite;
+}
+
+.pswp--css_animation .pswp__preloader__icn {
+    background: none;
+    opacity: 0.75;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    margin: 0;
+}
+
+.pswp--css_animation .pswp__preloader__cut {
+    /* 
+			The idea of animating inner circle is based on Polymer ("material") loading indicator 
+			 by Keanu Lee https://blog.keanulee.com/2014/10/20/the-tale-of-three-spinners.html
+		*/
+    position: relative;
+    width: 7px;
+    height: 14px;
+    overflow: hidden;
+}
+
+.pswp--css_animation .pswp__preloader__donut {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .pswp__preloader {
+        position: relative;
+        left: auto;
+        top: auto;
+        margin: 0;
+        float: right;
+    }
+}
+
+@-webkit-keyframes clockwise {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes clockwise {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes donut-rotate {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    50% {
+        -webkit-transform: rotate(-140deg);
+        transform: rotate(-140deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+}
+
+@keyframes donut-rotate {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    50% {
+        -webkit-transform: rotate(-140deg);
+        transform: rotate(-140deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+}
+
+/*
+	
+	6. Additional styles
+
+ */
+/* root element of UI */
+.pswp__ui {
+    -webkit-font-smoothing: auto;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1550;
+}
+
+/* top black bar with buttons and "1 of X" indicator */
+.pswp__top-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 44px;
+    width: 100%;
+}
+
+.pswp__caption,
+.pswp__top-bar,
+.pswp--has_mouse .pswp__button--arrow--left,
+.pswp--has_mouse .pswp__button--arrow--right {
+    -webkit-backface-visibility: hidden;
+    will-change: opacity;
+    -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+    transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
+}
+
+/* pswp--has_mouse class is added only when two subsequent mousemove events occur */
+.pswp--has_mouse .pswp__button--arrow--left,
+.pswp--has_mouse .pswp__button--arrow--right {
+    visibility: visible;
+}
+
+.pswp__top-bar,
+.pswp__caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
+.pswp__ui--fit .pswp__top-bar,
+.pswp__ui--fit .pswp__caption {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */
+.pswp__ui--idle .pswp__top-bar {
+    opacity: 0;
+}
+
+.pswp__ui--idle .pswp__button--arrow--left,
+.pswp__ui--idle .pswp__button--arrow--right {
+    opacity: 0;
+}
+
+/*
+	pswp__ui--hidden class is added when controls are hidden
+	e.g. when user taps to toggle visibility of controls
+*/
+.pswp__ui--hidden .pswp__top-bar,
+.pswp__ui--hidden .pswp__caption,
+.pswp__ui--hidden .pswp__button--arrow--left,
+.pswp__ui--hidden .pswp__button--arrow--right {
+    /* Force paint & create composition layer for controls. */
+    opacity: 0.001;
+}
+
+/* pswp__ui--one-slide class is added when there is just one item in gallery */
+.pswp__ui--one-slide .pswp__button--arrow--left,
+.pswp__ui--one-slide .pswp__button--arrow--right,
+.pswp__ui--one-slide .pswp__counter {
+    display: none;
+}
+
+.pswp__element--disabled {
+    display: none !important;
+}
+
+.pswp--minimal--dark .pswp__top-bar {
+    background: none;
+}
+
+
+
+/* set play/pause button */
+
+
+
+@media (-webkit-min-device-pixel-ratio: 1.1),
+(-webkit-min-device-pixel-ratio: 1.09375),
+(min-resolution: 105dpi),
+(min-resolution: 1.1dppx) {
+    /*serve if resolution high enough & browser supports */
+
+
+    .pswp--svg .pswp__button--playpause {
+        /*background: none;*/
+        background-image: url('play-wh.png');
+    }
+
+    .pswp--svg .pswp__button--playpause.play,
+    .pswp--svg .pswp__button--playpause.play:before {
+        background-image: url('play-wh.png');
+    }
+
+    .pswp--svg .pswp__button--playpause.pause,
+    .pswp--svg .pswp__button--playpause.pause:before {
+        background-image: url('pause-wh.png');
+    }
+}
+
+.pswp__button--playpause {
+    background: none;
+    background: url('play-wh.png') 12px 12px/20px 20px no-repeat;
+}
+
+.pswp__button--playpause.play,
+.pswp__button--playpause.play:before {
+    background: url('play-wh.png') 12px 12px/20px 20px no-repeat;
+}
+
+.pswp__button--playpause.pause,
+.pswp__button--playpause.pause:before {
+    background: url('pause-wh.png') 12px 12px/20px 20px no-repeat;
+}
+
+.pswp__button {
+    outline: none;
+}
+
+/* DiLerH5P start */
+
+.example-link a,
+.btn-link {
+    text-decoration: none;
+    background: unset;
+    border: unset;
+    padding: 0;
+}
+
+.task-type-item img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 0;
+    transition: 0.3s all;
+    width: auto;
+    height: auto;
+}
+
+.fs-5 {
+    font-size: 1.25rem !important;
+}
+
+.task-type-item.disabled-task-type {
+    background: #f8f8f8;
+}
+
+.task-type-item.disabled-task-type img {
+    filter: grayscale(100%);
+    opacity: 60%;
+}
+
+.task-type-item .example-link {
+    display: block;
+    height: 365px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.subtitle {
+    color: #979797;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+.task-type-item .image-wrapper {
+    width: 100%;
+    height: 128px;
+    padding-bottom: 1rem;
+}
+
+.task-type-item .card-body {
+    padding: 32px;
+    height: 466px;
+    overflow: hidden;
+}
+
+.task-type-item p,
+.task-type-item li {
+    color: #373a3c;
+}
+
+.task-type-item.card.shadow {
+    transition: box-shadow .3s;
+}
+
+.task-type-item.card.shadow img {
+    transition: all .4s;
+}
+
+.task-type-item.card.shadow:not(.disabled-task-type):hover {
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.task-type-item.card.shadow:not(.disabled-task-type):hover img {
+    max-width: 120%;
+    max-height: 120%;
+    margin: -3% -10% -7%;
+    filter: drop-shadow(4px 7px 6px rgba(0, 0, 0, 0.2));
+}
+
+@media (min-width: 576px) {
+    .card-group>.card {
+        flex: 1 0 0%;
+        margin-bottom: 0;
+    }
+}
+
+#grid-bottom>.row {
+    --bs-gutter-x: 0
+}
+
+#grid-bottom {
+    margin-top: 10vh;
+    background: #f8f8f8
+}
+
+#grid-bottom .module.first h3,
+#grid-bottom .module.first .h3 {
+    margin-bottom: 1em
+}
+
+#grid-bottom div[id*="maximenuck"] ul.maximenuck {
+    background: transparent;
+    text-align: center
+}
+
+.moduletable.thanks {
+    margin: 7vh auto 5vh !important;
+    padding: 0 30vw;
+}
+
+.module.sponsor,
+.moduletable.sponsor {
+    margin: 3vh auto;
+    width: 90%;
+    max-width: 1300px;
+    padding: 1vh 0 3vh;
+    border-top: thin solid #ddd
+}
+
+.module.sponsor.s,
+.moduletable.sponsor.s {
+    min-height: 200px;
+    padding-bottom: 11vh
+}
+
+.module.sponsor.hall,
+.moduletable.sponsor.hall {
+    border-top: none
+}
+
+.custom.hall {
+    margin: auto;
+    max-width: 49em
+}
+
+.module.sponsor>h3,
+.module.sponsor>.h3,
+.moduletable.sponsor>h3,
+.moduletable.sponsor>.h3 {
+    margin: -1.15em auto 1em;
+    padding: 0 1em;
+    border: none;
+    font-size: 2rem;
+    color: #ccc;
+    display: block;
+    background: #f8f8f8;
+    width: 9em;
+    text-align: center;
+    font-weight: normal;
+    font-family: DiLerFont
+}
+
+body div#sponsor_xl ul.maximenuck,
+body div#sponsor_l ul.maximenuck,
+body div#sponsor_s ul.maximenuck {
+    display: flex !important;
+    justify-content: center;
+    flex-flow: wrap
+}
+
+#footer-outer {
+    background: #6f6f6f;
+    color: #ccc
+}
+
+#footer .module.sponsor li.maximenuck>a {
+    text-align: center
+}
+
+.module.sponsor a>img,
+.moduletable.sponsor a>img {
+    height: 80px;
+    object-fit: contain;
+    transition: all .4s
+}
+
+.module.sponsor.xl a>img,
+.moduletable.sponsor.xl a>img {
+    height: 104px
+}
+
+#footer .module.sponsor .nav>li>a {
+    transition: all .6s
+}
+
+.module.sponsor a:hover img,
+.module.sponsor a:focus img,
+.module.sponsor a:active img,
+.moduletable.sponsor a:hover img,
+.moduletable.sponsor a:focus img,
+.moduletable.sponsor a:active img {
+    filter: grayscale(0)
+}
+
+.module.sponsor a,
+.moduletable.sponsor a {
+    padding: 1rem
+}
+
+.module.sponsor,
+.moduletable.sponsor {
+    padding: 1rem
+}
+
+#footer li.maximenuck>a {
+    line-height: 2
+}
+
+#oer-resources a:hover,
+#help-menu a:hover,
+#oer-resources a:active,
+#help-menu a:active,
+#oer-resources a:focus,
+#help-menu a:focus {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 3px 0 0 0 rgba(255, 255, 255, 0.1), -3px 0 0 0 rgba(255, 255, 255, 0.1);
+    color: #fff
+}
+
+.address a:hover,
+#footer .footer-content a:hover,
+.address a:active,
+#footer .footer-content a:active,
+.address a:focus,
+#footer .footer-content a:focus {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 0 0.3em rgba(255, 255, 255, 0.1);
+    color: #fff
+}
+
+#footer .module.address li.maximenuck>a img,
+#footer .module.oer-resources li.maximenuck>a img,
+#footer .module.service li.maximenuck>a img {
+    margin: -6px 6px 0 0 !important;
+    height: 16px;
+    filter: invert(1);
+    opacity: .5
+}
+
+#footer-outer a {
+    margin: 0;
+    overflow: hidden;
+    color: #fff;
+    text-overflow: ellipsis
+}
+
+#footer {
+    padding: calc(1rem + 3vh) 2rem
+}
+
+#footer-bottom {
+    padding: calc(1rem + 3vh) 2rem;
+    text-align: center;
+    background: #666;
+    font-size: .8rem
+}
+
+#footer-sub {
+    padding: calc(1rem + 3vh) 2rem;
+    text-align: center;
+    background: #606060
+}
+
+#footer-bottom .navi.list-inline,
+#footer-bottom .custom.copy {
+    display: inline-block;
+    vertical-align: text-top
+}
+
+#footer-bottom .navi a {
+    margin: 0;
+    display: inline-block;
+    padding: 0
+}
+
+.footer-logo {
+    margin: 0 0 1rem 0;
+    width: 144px
+}
+
+div.mod-languages img {
+    width: 24px;
+    margin: 4px
+}
+
+#footer-outer .certificates {
+    display: block;
+    margin: 0 auto calc(1rem + 1vh)
+}
+
+#footer-outer .certificates .logos:nth-child(1) {
+    width: 128px
+}
+
+#footer-outer .certificates .logos {
+    display: inline-block;
+    margin: 20px;
+    width: 88px;
+    padding: 8px;
+    transition: all .2s
+}
+
+#footer-outer .certificates a:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.2);
+    text-decoration: none
+}
+
+#footer-outer .certificates a img {
+    max-width: 100%
+}
+
+/* DiLerH5P end */
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {}
 
